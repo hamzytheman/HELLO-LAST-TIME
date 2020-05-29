@@ -185,56 +185,7 @@ a:not([href]):hover {
 }
 }
 
-.tree {
-  font-size: 120px;
-  position: absolute;
-  animation-name: swaying;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 
-.tree-1 {
-  top: 700px;
-  left: 250px;
-}
-
-.tree-2 {
-  top: 800px;
-  right: 700px;
-}
-
-@keyframes swaying {
-  from {
-    transform: skewX(15deg);
-  }
-  
-  to {
-    transform: skewX(-15deg);
-  }
-}
-
-.cartwheeler {
-  font-size: 100px;
-  position: absolute;
-  top: 800px;
-  animation-name: cartwheeling;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes cartwheeling {
-  from {
-    transform: rotate(0);
-    left: 400px; 
-   
-  }
-  
-  to {
-    transform: rotate(360deg);
-    left: 900px;
-  }
-}
 
 #footer p {
   font-size: 12px;
